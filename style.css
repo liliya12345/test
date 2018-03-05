@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    
+   
+}
+body{
+
+margin:0;
+background-image: url("bild.jpg");
+background-repeat: no-repeat;
+background-position: center top; 
+ 
+
+}
+form {
+    text-align: center;
+    margin-top:550px;
+    padding: 1px solid;
+}
+select{
+
+background-color: antiquewhite;
+font-size: 16px;
+width: 150px;
+}
+.row{
+
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 70%;
+    text-align: center;
+
+}
+@media screen and (min-width: 640px) {
+    
+    .col-12 {
+        width: 100%;
+        
+    }
+}
+
